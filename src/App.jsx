@@ -1,5 +1,7 @@
-export const App = ()=>{
-      return(
-        <h1>Hello</h1>
-      )
+import { Pokemon } from "./Pokemon"
+
+export const App = () => {
+  return (
+    <Pokemon />
+  )
 }
